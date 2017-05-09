@@ -60,7 +60,7 @@ class MoyanSpider(CrawlSpider):
                 item['duration'] = temp[4].split('/')[-1]
                 item['time'] = temp[6]
 
-                return item
+                yielditem
                 
         except Exception, e:
             print e.message
