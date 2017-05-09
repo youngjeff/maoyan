@@ -1,0 +1,5 @@
+BeautifulSoup4
+pymysql
+requests
+urllib2
+lxml
